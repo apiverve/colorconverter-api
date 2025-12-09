@@ -1,0 +1,76 @@
+openapi: 3.0.4
+info:
+  title: Color Converter
+  description: Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/colorconverter:
+    get:
+      summary: Convert Color from Hex
+      description: Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.
+      operationId: colorconverter
+      parameters:
+      - name: hex
+        in: query
+        schema:
+          type: string
+        required: true
+        description: 'The color in hexadecimal format (e.g., FF0000). Make sure you ommit the #'
+        example: FF0000
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  hex: '#FF0000'
+                  rgb: 255, 0, 0
+                  hsl: 0, 100, 50
+                  cmyk: 0, 100, 100, 0
+                  ansi16: 91
+                  name: red
+                  channels:
+                    rgbChannels: 3
+                    cmykChannels: 4
+                    ansiChannels: 1
+                    hexChannels: 1
+                    hslChannels: 3
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
