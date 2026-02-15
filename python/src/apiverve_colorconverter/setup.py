@@ -10,20 +10,14 @@ if os.path.exists(requirements_file):
 
 setup(
     name='apiverve_colorconverter',
-    version='1.1.12',
+    version='1.1.13',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
     description='Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://apiverve.com',
-    project_urls={
-        'Homepage': 'https://apiverve.com',
-        'Documentation': 'https://docs.apiverve.com/ref/colorconverter',
-        'Source': 'https://github.com/apiverve/colorconverter-api',
-        'Bug Tracker': 'https://github.com/apiverve/colorconverter-api/issues'
-    },
+    url='https://apiverve.com/marketplace/colorconverter?utm_source=pypi&utm_medium=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
