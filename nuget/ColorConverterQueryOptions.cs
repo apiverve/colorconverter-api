@@ -12,7 +12,6 @@ namespace APIVerve.API.ColorConverter
     {
         /// <summary>
         /// The color in hexadecimal format (e.g., FF0000). Make sure you ommit the #
-        /// Example: FF0000
         /// </summary>
         [JsonProperty("hex")]
         public string Hex { get; set; }
