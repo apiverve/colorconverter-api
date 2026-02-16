@@ -228,8 +228,9 @@ from apiverve_colorconverter.apiClient import ColorconverterAPIClient
 
 api = ColorconverterAPIClient("[YOUR_API_KEY]")
 
+query = { "hex": "FF0000" }
+
 try:
-    query = { "hex": "FF0000" }
     result = api.execute(query)
     print(result)
 finally:
