@@ -191,11 +191,40 @@ x-api-key: YOUR_API_KEY_HERE
 Get your API key: [https://apiverve.com](https://apiverve.com)
 
 ### Response Format
-All responses are JSON with this structure:
+
+Every APIVerve endpoint returns the same envelope — check `status`, then read `data`:
+
 ```json
 {
   "status": "ok",
+  "error": null,
   "data": { ... }
+}
+```
+
+### Example Response
+
+A real response from the Color Converter API:
+
+```json
+{
+  "status": "ok",
+  "error": null,
+  "data": {
+    "hex": "#FF0000",
+    "rgb": "255, 0, 0",
+    "hsl": "0, 100, 50",
+    "cmyk": "0, 100, 100, 0",
+    "ansi16": 91,
+    "name": "red",
+    "channels": {
+      "rgbChannels": 3,
+      "cmykChannels": 4,
+      "ansiChannels": 1,
+      "hexChannels": 1,
+      "hslChannels": 3
+    }
+  }
 }
 ```
 
