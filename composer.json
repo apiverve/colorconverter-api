@@ -1,0 +1,49 @@
+{
+    "name": "apiverve/colorconverter",
+    "description": "Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.",
+    "version": "1.2.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "APIVerve",
+            "email": "hello@apiverve.com",
+            "homepage": "https://apiverve.com"
+        }
+    ],
+    "keywords": [
+        "api",
+        "apiverve",
+        "colorconverter",
+        "color converter",
+        "color converter api",
+        "color converter tool",
+        "color converter software",
+        "color converter service"
+    ],
+    "homepage": "https://apiverve.com/marketplace/colorconverter?utm_source=php&utm_medium=homepage",
+    "support": {
+        "email": "hello@apiverve.com",
+        "docs": "https://docs.apiverve.com/ref/colorconverter",
+        "source": "https://github.com/apiverve/colorconverter-API/tree/main/php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APIVerve\\Colorconverter\\": "php/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "APIVerve\\Colorconverter\\Tests\\": "php/tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
