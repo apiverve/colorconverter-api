@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/colorconverter",
-  "version": "1.2.0",
-  "description": "Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.",
+  "version": "1.2.2",
+  "description": "Color Converter translates color values across hex, RGB, CMYK, and named inputs into standard RGB formats and channel breakdowns. Paid plans expand output to include CMYK, HSL, ANSI 16-color codes, and recognized English color names.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "color converter", "color converter api", "color converter tool", "color converter software", "color converter service"
+    "color converter api", "convert hex to rgb", "rgb to cmyk", "hex color to hsl", "cmyk to rgb"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/colorconverter-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/colorconverter?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/colorconverter?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
