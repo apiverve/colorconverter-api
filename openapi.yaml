@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: Color Converter
   description: >-
-    Color Converter is a simple tool for converting color formats. It returns
-    the color converted to the specified format.
+    Color Converter translates color values across hex, RGB, CMYK, and named
+    inputs into standard RGB formats and channel breakdowns. Paid plans expand
+    output to include CMYK, HSL, ANSI 16-color codes, and recognized English
+    color names.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/colorconverter:
     get:
-      summary: Convert Color from Hex
+      summary: Color Converter
       description: Convert a color to a different format
       operationId: colorconverter
       parameters:

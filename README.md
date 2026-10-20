@@ -1,13 +1,13 @@
-# [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.
+Color Converter translates color values across hex, RGB, CMYK, and named inputs into standard RGB formats and channel breakdowns. Paid plans expand output to include CMYK, HSL, ANSI 16-color codes, and recognized English color names.
 
 The Color Converter API provides a simple, reliable way to integrate color converter functionality into your applications. Built for developers who need production-ready color converter capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/colorconverter-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/colorconverter](https://docs.apiverve.com/ref/colorconverter)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -232,7 +232,7 @@ A real response from the Color Converter API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
