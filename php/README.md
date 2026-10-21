@@ -1,6 +1,6 @@
 # Color Converter API - PHP Package
 
-Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.
+Color Converter translates color values across hex, RGB, CMYK, and named inputs into standard RGB formats and channel breakdowns. Paid plans expand output to include CMYK, HSL, ANSI 16-color codes, and recognized English color names.
 
 ## Installation
 
@@ -93,11 +93,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/colorconverter?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/colorconverter?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/colorconverter?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/colorconverter?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/colorconverter?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/colorconverter?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
