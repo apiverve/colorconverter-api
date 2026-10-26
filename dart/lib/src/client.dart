@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Color Converter API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [hex] (required) - The color in hexadecimal format (e.g., FF0000). Make sure you ommit the #

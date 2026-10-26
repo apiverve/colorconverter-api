@@ -1,11 +1,11 @@
 # Color Converter API - Dart/Flutter Client
 
-Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.
+Color Converter translates color values across hex, RGB, CMYK, and named inputs into standard RGB formats and channel breakdowns. Paid plans expand output to include CMYK, HSL, ANSI 16-color codes, and recognized English color names.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_colorconverter.svg)](https://pub.dev/packages/apiverve_colorconverter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_colorconverter: ^1.1.14
+  apiverve_colorconverter: ^1.2.3
 ```
 
 Then run:
@@ -71,12 +71,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/colorconverter](https://docs.apiverve.com/ref/colorconverter?utm_source=dart&utm_medium=readme)
+- **API Home:** [Color Converter API](https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/colorconverter](https://docs.apiverve.com/ref/colorconverter?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -84,4 +84,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

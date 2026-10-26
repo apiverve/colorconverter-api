@@ -1,7 +1,7 @@
 name: apiverve_colorconverter
-description: Color Converter is a simple tool for converting color formats. It returns the color converted to the specified format.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=homepage
+description: "Color Converter translates color values across hex, RGB, CMYK, and named inputs into standard RGB formats and channel breakdowns. Paid plans expand output to include CMYK, HSL, ANSI 16-color codes, and recognized English color names."
+version: 1.2.3
+homepage: https://apiverve.com/marketplace/colorconverter?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/colorconverter-api/tree/main/dart
 
 environment:
