@@ -1,7 +1,7 @@
 {
     "name": "apiverve/colorconverter",
     "description": "Color Converter translates color values across hex, RGB, CMYK, and named inputs into standard RGB formats and channel breakdowns. Paid plans expand output to include CMYK, HSL, ANSI 16-color codes, and recognized English color names.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "type": "library",
     "license": "MIT",
     "authors": [
